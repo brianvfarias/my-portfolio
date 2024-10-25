@@ -31,9 +31,9 @@ export function App() {
   return (
     <div className="flex justify-center align-center flex-col mx-[100px] flex-grow gap-5 my-24 md:mx-[30%] min-w-[350px] max-w-[600px]">
       <header className="flex flex-col">
-        <div className="flex aling-center justify-between gap-8 row-start-1">
+        <div className="flex flex-col items-center justify-between gap-8 lg:flex-row">
           <Avatar />
-          <div className=" flex flex-col gap-4">
+          <div className="flex flex-col gap-4">
             <h1 className="self-center">Hey there! I'm Brian</h1>
             <Links />
           </div>

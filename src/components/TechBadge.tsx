@@ -3,7 +3,7 @@ import { Badge } from "./ui/badge";
 
 interface TechBadgeProps {
   tech: string
-  color: "yellow" | "red" | "blue" | "green"
+  color?: "yellow" | "red" | "blue" | "green"
 }
 export function TechBadge(props: TechBadgeProps) {
   let bgColor = "";

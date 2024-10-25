@@ -5,7 +5,7 @@ export function Skills() {
     <div>
       <div className="flex flex-col justify-center items-center">
         <strong className="text-lg">Technologies</strong>
-        <ul className="flex gap-2 flex-wrap py-2 px-8">
+        <ul className="flex justify-center gap-2 flex-wrap py-2 px-8">
           <TechBadge tech="JavaScript" color="yellow" />
           <TechBadge tech="TypeScript" color="blue" />
           <TechBadge tech="React.JS" color="blue" />
